@@ -1,0 +1,12 @@
+-- Select expressions for tables
+
+-- You use this file to define which columns to transfer, their order
+-- You can also use source database expressions to perform data transformations, change the data types
+-- and define new computed columns 
+
+-- Syntax:
+-- source_table, colexpr1, ...;  (use ; to terminate the list, you can use newlines and tabs in expression items)
+
+-- Example (uncomment):
+-- SALES.CONTACTS, NAME, SUBSTR(CREATED_DT, 1, 10) AS CREATED_DT, 'HQ OFFICE' AS OFFICE;
+-- SALES.ORDERS, *, 'NA REGION' AS REGION;   -- adds a new column with computed value

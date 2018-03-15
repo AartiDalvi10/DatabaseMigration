@@ -1,0 +1,10 @@
+-- Select expressions for all tables (not applied for tables defined in sqlines_tsel.txt)
+
+-- You use can this file to add columns including computed columns for all tables (data source name, timestamps etc.)
+
+-- Syntax (only the first list is used):
+-- colexpr1, ...;  (use ; to terminate the list, you can use newlines and tabs in expression items)
+-- *, colexpr1, ...;  -- adds new columns
+
+-- Example (uncomment):
+-- *, 'NA REGION' AS REGION;   -- adds a new column with computed value

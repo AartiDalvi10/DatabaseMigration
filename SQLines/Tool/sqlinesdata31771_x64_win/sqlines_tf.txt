@@ -1,0 +1,10 @@
+-- Use -tf=<file_name> option to specify a file containing list of tables to transfer data
+-- Each table name should include the schema (owner) name
+
+-- Syntax (one table name per line):
+-- schema.table1
+-- schema.table2
+
+-- Example (uncomment):
+-- dbo.ORDERS
+-- dbo.SALES

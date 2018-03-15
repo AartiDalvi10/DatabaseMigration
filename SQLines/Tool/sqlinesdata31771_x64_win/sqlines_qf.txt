@@ -1,0 +1,8 @@
+-- Use -qf=<file_name> option to specify a file containing queries to transfer data
+
+-- Syntax:
+-- target_table1, query1;  (use ; to terminate the query, you can use newlines and tabs)
+-- target_table2, query2; ... ;
+
+-- Example (uncomment):
+-- ORDERS, SELECT * FROM orders WHERE created_dt >= CURRENT_DATE;

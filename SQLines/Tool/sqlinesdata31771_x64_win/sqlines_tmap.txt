@@ -1,0 +1,7 @@
+-- SQLines Data and SQLines Converter table name mapping file
+
+-- Syntax (one mapping per line):
+-- schema.table, target_schema.target_table
+
+-- Uncomment
+-- SALES.CONTACTS, CRM.SALES_CONTACTS

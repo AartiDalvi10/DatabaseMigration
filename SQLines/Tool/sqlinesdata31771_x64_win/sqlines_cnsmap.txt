@@ -1,0 +1,6 @@
+-- SQLines Data and SQLines Converter table constraint name mapping file
+
+-- schema.table, source_constraint, target_constraint
+
+-- Example (uncomment):
+-- SALES.CONTACTS, ID_UNIQUE_CNS, ID_SALES_UNIQUE

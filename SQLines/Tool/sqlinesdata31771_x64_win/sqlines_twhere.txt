@@ -1,0 +1,9 @@
+-- WHERE conditions for tables
+-- You use this file to filter rows transferred for the specified tables
+
+-- Syntax:
+-- source_table1, condition1;  (do not specify WHERE keyword, use ; to terminate the WHERE clause, you can use newlines and tabs)
+-- source_table2, condition2; ... ;
+
+-- Example (uncomment):
+-- SALES.ORDERS, created_dt >= CURRENT_DATE;

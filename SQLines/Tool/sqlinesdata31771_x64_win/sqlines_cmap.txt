@@ -1,0 +1,10 @@
+-- SQLines Data and SQLines Converter column name and data type mapping file
+
+-- Syntax (one column mapping per line):
+-- schema.table, column, target_column [, target_datatype]
+
+-- Target_datatype is optional, and if you do not specify it then only the column name is mapped
+-- and the default data type conversion is used
+
+-- Example (Uncomment):
+-- SALES.CONTACTS, DESCRIPTION, DESC, VARCHAR2(4000)
